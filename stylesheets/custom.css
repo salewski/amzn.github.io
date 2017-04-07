@@ -13,3 +13,18 @@
   border-bottom-right-radius: 2px;
 }
 
+@media screen and (max-width: 1120px) {
+  #logo_banner {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  #logo_banner {
+    width: 50px;
+  }
+
+  #header_wrap .inner {
+    padding: 80px 10px 0px 10px;
+  }
+}
