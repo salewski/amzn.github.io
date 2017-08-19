@@ -329,8 +329,6 @@ Full-Width Styles
   background: #212121;
 }
 
-
-
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
@@ -351,6 +349,10 @@ Small Device Styles
 
   #project_title {
   font-size: 32px;
+  }
+
+  #main_content {
+    padding-top: 15px;
   }
 
   h1 {
@@ -383,4 +385,14 @@ Small Device Styles
     font-size: 11px;
   }
 
+}
+
+@media screen and (max-width: 320px) {
+  table {
+    font-size: 11px;
+  }
+
+  .inner {
+    min-width: 300px;
+  }
 }
