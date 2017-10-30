@@ -1,4 +1,4 @@
 amzn.github.io
 ==============
 
-Landing Page for Amazon Github Pages
+Redirects to aws.github.io
